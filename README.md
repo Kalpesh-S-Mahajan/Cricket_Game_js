@@ -1,67 +1,52 @@
-Bat Ball Stump Game
+# 🏏 Bat Ball Stump Game
 
-Welcome to the Bat Ball Stump Game! This is a simple and fun web-based game inspired by the classic rock-paper-scissors concept, but with a cricket-themed twist.
+## 📌 Overview
+This is a simple **Bat Ball Stump Game** built using HTML, CSS, and JavaScript. The game allows users to play against the computer, with randomized choices and a scoring system.
 
-🎮 How to Play?
+## ✨ Features
+- 🎮 Player vs. Computer gameplay
+- 🔄 Randomized computer moves
+- 🏆 Score tracking (Wins, Losses, Ties)
+- 🔄 Reset score functionality
+- 🎨 Simple and interactive UI
 
-Choose one of the three options: Bat, Ball, or Stump by clicking the respective button.
+## 🛠 Technologies Used
+- **📌 HTML** - Structure of the game
+- **🎨 CSS** - Styling and UI enhancements
+- **⚡ JavaScript** - Game logic and interactivity
 
-The computer will randomly generate its choice.
+## 📁 Project Structure
+```
+📂 Bat-Ball-Stump-Game
+│-- 📜 index.html        # Main HTML file
+│-- 📜 cricket.css       # Styling file
+│-- 📜 README.md         # Project documentation
+│-- 📂 images            # Contains game-related images
+```
 
-The winner is decided based on the following rules:
+## 📷 Demo Screenshot
+![Screenshot 2025-03-03 195115](https://github.com/user-attachments/assets/a88c5f04-6e85-4045-9e9e-f31a5589b738)
 
-Bat beats Stump ✅
+## 🚀 Setup Instructions
+1. **Download or Clone the Repository**
+   ```sh
+   git clone https://github.com/Kalpesh-S-Mahajan/Cricket_Game_js.git
+   ```
+2. **Open the `index.html` File**
+   - Simply open `index.html` in a browser to start the game.
 
-Ball beats Bat ✅
+## 🎯 How to Play
+1. Click on one of the buttons (Bat, Ball, or Stump) to make your move.
+2. The computer will randomly choose its move.
+3. The result will be displayed (Win, Lose, or Tie).
+4. Your score will be updated accordingly.
+5. Click the **Reset** button to clear the score.
 
-Stump beats Ball ✅
+## 🔥 Future Enhancements
+- 🎵 Add sound effects for better interaction.
+- 📊 Enhance UI with animations.
+- 💾 Store scores in a database for persistent tracking.
 
-If both choices are the same, it's a tie.
+## 📜 License
+This project is open-source and free to use under the **MIT License**.
 
-Your score is tracked and stored locally.
-
-Click the Reset button to clear the score and start fresh!
-
-🛠 Technologies Used
-
-HTML - Structure of the game
-
-CSS - Styling for an engaging UI
-
-JavaScript - Game logic and interactivity
-
-📂 Project Structure
-
-├── images/            # Folder containing bat, ball, and stump images
-├── cricket.html       # Main game interface
-├── cricket.css        # Stylesheet for the game UI
-├── README.md          # Project documentation
-
-🚀 Getting Started
-
-To run the game locally:
-
-Clone this repository:
-
-git clone https://github.com/Kalpesh-S-Mahajan/Cricket_Game_js.git
-
-Open cricket.html in any modern browser.
-
-Enjoy playing!
-
-📸 Preview
-
-![image](https://github.com/user-attachments/assets/edce8f52-44ea-426b-bfd2-1dcd530eb0a6)
-
-
-🔥 Features
-
-✅ Simple & fun gameplay✅ Score tracking using local storage✅ Responsive & user-friendly interface✅ Reset button to clear score✅ Cricket-themed aesthetics 🎉
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repo, make improvements, and submit a pull request.
-
-🏆 Acknowledgments
-
-Inspired by the rock-paper-scissors game with a cricket twist. Enjoy the game and have fun!
